@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neha Asghar - Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4ff;
+            color: #333;
+        }
+
+        /* NAVBAR */
+        nav {
+            background-color: #6c63ff;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav h2 { color: white; }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+        nav a:hover { text-decoration: underline; }
+
+        /* HERO */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 { font-size: 48px; color: #6c63ff; }
+        .hero p { font-size: 18px; margin-top: 10px; color: #555; }
+        .hero button {
+            margin-top: 25px;
+            padding: 12px 30px;
+            background-color: #6c63ff;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .hero button:hover { background-color: #574fd6; }
+
+        /* SKILLS */
+        .skills {
+            background-color: white;
+            padding: 50px 40px;
+            text-align: center;
+        }
+        .skills h2 { color: #6c63ff; font-size: 32px; margin-bottom: 30px; }
+        .skill-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: #f0f4ff;
+            border-radius: 12px;
+            padding: 20px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #6c63ff;
+            width: 150px;
+        }
+
+        /* ABOUT */
+        .about {
+            padding: 60px 40px;
+            text-align: center;
+            background-color: #f0f4ff;
+        }
+        .about h2 { color: #6c63ff; font-size: 32px; margin-bottom: 20px; }
+        .about p { font-size: 17px; color: #555; max-width: 600px; margin: auto; line-height: 1.8; }
+
+        /* CONTACT */
+        .contact {
+            background-color: #6c63ff;
+            padding: 60px 40px;
+            text-align: center;
+            color: white;
+        }
+        .contact h2 { font-size: 32px; margin-bottom: 20px; }
+        .contact p { font-size: 17px; margin-bottom: 10px; }
+        .contact a { color: #ffe066; text-decoration: none; font-weight: bold; }
+
+        /* FOOTER */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2>Neha Asghar</h2>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Skills</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero">
+        <h1>Hi, I'm Neha Asghar! 👋</h1>
+        <p>Software Engineering Student at COMSATS University, Vehari</p>
+        <p>Frontend Developer | Full Stack Learner</p>
+        <button>View My Work</button>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-cards">
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">React</div>
+            <div class="card">Laravel</div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="about">
+        <h2>About Me</h2>
+        <p>I am a passionate Software Engineering student at COMSATS University Islamabad, Vehari Campus. I love building beautiful and functional websites. I have experience with HTML, CSS, JavaScript, React, and Laravel.</p>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact">
+        <h2>Contact Me 📩</h2>
+        <p>Email: <a href="mailto:neha@example.com">neha@example.com</a></p>
+        <p>GitHub: <a href="#">github.com/neha-asghar</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/neha-asghar</a></p>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Neha Asghar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
